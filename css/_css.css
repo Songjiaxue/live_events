@@ -1,0 +1,204 @@
+body{
+    background-color: #7ee5e0;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+._css .banner{
+    margin-top: -25.7%;
+    width: 100%;
+}
+._css .title{
+    margin-top: -30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    zoom : 1;
+}
+._css .title:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+._css .title-item:first-child{
+    float: left;
+    width: 30%;
+    margin-top: 7px;
+}
+._css .sign{
+    float: right;
+}
+._css .sign_img{
+    width: 25px;
+    float: left;
+    margin-right: 10px;
+}
+._css .sign_info{
+    float: left;
+}
+._css .main{
+    margin-top: 20px;
+    padding-left: 30px;
+}
+._css .s_time{
+    color: #ffffcc;
+    font-size: 1.6rem;
+}
+._css .list{
+    margin-top: 10px;
+}
+._css .list-item{
+    margin-bottom: 50px;
+    position: relative;
+    display: block;
+    display: -webkit-box;
+    display: flex;
+    display: -webkit-flex;
+}
+._css .list-item .timer{
+    display: block;
+    -webkit-box-flex: 2;
+    box-flex: 2;
+    flex: 2;
+    -webkit-flex: 2;
+    max-width: 65px;
+    zoom: 1;
+}
+._css .list-item .timer:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+._css .list-item .time{
+    line-height: 62px;
+    margin-right: 5px;
+    float: left;
+}
+._css .list-item .alarm{
+    width: 27px;
+    margin-top: 17px;
+    position: relative;
+    float: left;
+}
+._css .list-item .time_line{
+    position: absolute;
+    top: 27px;
+    left: 13px;
+    height: 60%;
+    border-left: 1px solid #ffffff;
+}
+._css .link{
+    display: block;
+    -webkit-box-flex: 2;
+    box-flex: 2;
+    flex: 2;
+    -webkit-flex: 2;
+
+}
+._css .link-item{
+    width: 100%;
+    margin-top: 30px;
+    border-bottom: 1px dashed #ffffff;
+}
+._css .action{
+    position: relative;
+    height: 60px;
+    border: 1px solid #ffffff;
+    border-right: none;
+    background-color: rgba(255,255,255,.5);
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    display: block;
+    -webkit-box-flex: 5;
+    box-flex: 5;
+    flex: 5;
+    -webkit-flex: 5;
+}
+._css .action_img{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+._css .list-item:first-child .action_img{
+    width: 15%;
+    max-width: 30px;
+}
+._css .list-item:nth-child(3) .action_img{
+    width: 20%;
+    max-width: 40px;
+}
+._css .list-item:nth-child(5) .action_img{
+    width: 30%;
+    max-width: 60px;
+}
+._css .list-item:nth-child(7) .action_img{
+    width: 30%;
+    max-width: 60px;
+}
+._css .action_info{
+    position: absolute;
+    text-align: center;
+    color: #27a482;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+._css .action_enter{
+    position: absolute;
+    width: 12%;
+    max-width: 20px;
+    top: 0;
+    right: 10%;
+    text-align: center;
+}
+._css .action_enter span{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+._css .action_list{
+    position: relative;
+    z-index: 999;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+._css .action_list .list-item{
+    margin-bottom: 10px;
+}
+._css .action_list .list-item .timer{
+    max-width: 60px;
+}
+._css .action_list .list-item .time{
+    line-height: 17px;
+    margin-right: 5px;
+    float: left;
+}
+._css .action_list .list-item .circle{
+    float: left;
+    width: 15px;
+    height: 15px;
+    border-radius: 8px;
+    border: 1px solid #ffffff;
+    background-color: #27a482;
+    margin-left: 5px;
+}
+._css .action_list .list-item .link-item{
+    border-bottom: 1px solid #ffffff;
+    margin-top: 8px;
+}
+._css .action_list .list-item  ._action{
+    display: block;
+    padding-right: 10px;
+    -webkit-box-flex: 5;
+    box-flex: 5;
+    flex: 5;
+    -webkit-flex: 5;
+}
+._css .foot{
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
